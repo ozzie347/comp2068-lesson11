@@ -3,7 +3,7 @@ import{BookService} from './services/book.service';
 
 @Component({
     selector: 'book',
-    templateUrl: './app/views/books.html',
+    templateUrl: './views/books.html',
     providers: [BookService],
     moduleId: module.id
 })
